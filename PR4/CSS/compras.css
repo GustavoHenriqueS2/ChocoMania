@@ -1,0 +1,30 @@
+.titulo__conteudo {
+    background-color: var(--background-principal);
+    padding: 1em 1.3em;
+    width: 75px;
+    color: var(--cor-secundaria);
+    margin: 2em 0;
+    font-size: 23px;
+}
+
+.card-1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0 5em 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .titulo__conteudo {
+        padding: 0.5em 1em;
+    }
+
+    .img__compra {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 821px) {
+    .img__compra {
+        height: 150px;
+    }
+}

@@ -1,0 +1,77 @@
+.final {
+    display: flex;
+    justify-content: space-around;
+    margin: 200px;
+}
+
+hr{
+    margin: 5em 0;
+}
+
+.locais {
+    margin: 2em 0;
+}
+
+.botao__final {
+    background-color: var(--background-principal);
+    border-radius: 6px;
+    width: 200px;
+    padding: 1.0em 0.3em;
+    margin: 2em 0;
+}
+
+.zap__botao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo__final {
+    background-color: cadetblue;
+    padding: 0.8em;
+    position: absolute;
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 1180px) {
+    .final {
+        margin: 200px 0 50px 0;
+    }
+    .mapa {
+        height: 400px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .final {
+        margin: 0px;
+    }
+
+    .mapa {
+        height: 400px;
+        width: 300px;
+    }
+
+    .logo__final {
+        margin-top: 80px;
+    }
+
+}
+
+@media screen and (max-width: 821px) {
+    .botao__final {
+        padding: 0.5em;
+        width: 150px;
+    }
+
+    .zap__botao {
+        font-size: 15px;
+    }
+
+    .mapa {
+        height: 300px;
+        width: 200px;
+    }
+}

@@ -1,0 +1,112 @@
+@import url("CSS/compras.css");
+@import url("CSS/footer.css");
+@import url("CSS/comentarios.css");
+@import url("CSS/compra.css");
+
+:root {
+    --fonte-principal: "Poppins", sans-serif;
+    --background-principal: violet;
+    --background-hover: darkmagenta;
+    --cor-principal: black;
+    --cor-secundaria: rgba(255, 255, 255, 0.908);
+    --cor-subtitulo: rgba(0, 0, 0, 0.907);
+    --cor-texto: rgba(0, 0, 0, 0.843);
+}
+
+body {
+    font-family: var(--fonte-principal);
+}
+
+.menu {
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.logo {
+    margin: 0.5em 1em;
+}
+
+.menu__container {
+    background: var(--background-principal);
+    display: flex;
+    gap: 50px;
+    padding: 1.5em 8em;
+    text-transform: uppercase;
+}
+
+.titulo {
+    font-size: 38px;
+    margin: 0 0 0.5em 0;
+    color: var(--fonte-principal);
+    font-weight: 500;
+}
+
+.subtitulo {
+    font-size: 30px;
+    color: var(--cor-subtitulo);
+    font-weight: 400;
+}
+
+.texto {
+    margin: 1em 0;
+    color: var(--cor-texto);
+    font-size: 23px;
+}
+
+.carrinho {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        display: none;
+    }
+
+    .titulo {
+        font-size: 32px;
+    }
+
+    .subtitulo {
+        font-size: 26px;
+    }
+
+    .texto {
+        font-size: 20px;
+    }
+
+    .apresentar__conteudos {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .carrinho {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 821px) {
+    .menu__container {
+        width: 100vh;
+        text-align: center;
+        align-items: center;
+    }
+
+    .menu__container li a {
+        font-size: 15px;
+        padding: 1em;
+    }
+    .titulo {
+        font-size: 24px;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+    }
+
+    .texto {
+        font-size: 13px;
+    }
+}

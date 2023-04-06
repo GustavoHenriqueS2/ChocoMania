@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link REL="SHORTCUT ICON" HREF="../IMGS/stand.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../stile.css">
+    <title>Choco Mania</title>
+</head>
+<body>
+
+    <header class="menu">
+        <div>
+            <img src="../IMGS/stand.png" alt="logo" height="85px" class="logo">
+            </div>
+        <div class="menu__container">
+            <li><a href="../index.html">contato</a></li>
+            <li><a href="../index.html">produtos</a></li>
+            <li><a href="../HTML/comentarios.html">avaliaçoes</a></li>
+        </div>
+        <a href="compra.html" class="carrinho"><img src="../IMGS/vista-lateral-vazia-do-carrinho-de-compras.png" alt="" height="85px" class="logo">
+        </a>
+    </header>
+
+    <main>
+
+        <div class="comentarios">
+            <form class="criar__comentarios" id="novoComentario">
+                <p>
+                <img src="../IMGS/comentarios.png" alt="" height="80px">
+                </p>
+                <h2 class="subtitulo subtitulo__comentario">Nome</h2>
+                <p>
+                    <input type="text" name="nome" id="nome" class="escrever not" required>
+                </p>
+                <h2 class="subtitulo subtitulo__comentario">Nota</h2>
+                <p>
+                <input type="number" name="nota" id="not" class="escrever not" max="10" required>
+                </p>
+                <h2 class="subtitulo subtitulo__comentario">Comentario</h2>
+                <p>
+                    <textarea id="texto" name="texto" class="escrever" maxlength="105" required></textarea>
+                </p>
+                <input type="submit" value="Enviar" id="btn-enviar">
+            </form>
+
+                <div class="comentari">
+                
+                </div>
+
+        </div>
+
+    </main>
+
+    <script src="../JAVASCRIPT/comentarios.js"></script>
+
+</body>
+</html>

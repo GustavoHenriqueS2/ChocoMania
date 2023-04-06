@@ -1,0 +1,15 @@
+.compra {
+    text-align: center;
+}
+
+.compra-btn{
+    color: var(--cor-secundaria);
+    background-color:  cadetblue;
+    padding: 1em 2.5em;
+    margin-top: 20vh;
+    border-radius: 7px;
+}
+
+.subt {
+    margin: 0.5em;
+}
